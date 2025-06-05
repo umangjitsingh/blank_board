@@ -19,7 +19,7 @@ const app = express();
 
 if (process.env.NODE_ENV === 'local') {
 	app.use(cors({
-		origin: 'http://localhost:3000/',
+		origin: 'http://localhost:5173/',
 		credentials: true
 	}))
 } else {
